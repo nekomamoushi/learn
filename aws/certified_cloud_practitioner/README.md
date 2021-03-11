@@ -6,6 +6,7 @@
 - [EC2 (Elastic Cloud Compute)](3_elastic_compute_cloud.md)
 - [Load Balancing and Auto Scaling](4_elb_and_asg.md)
 - [Storage](5_storage.md)
+- [Networking](6_networking.md)
 - [Compute Services](compute_services.md)
 - [S3](simple_storage_service.md)
 - [Snow Family](snow_family.md)
