@@ -56,3 +56,36 @@ Supported Language:
 - Lambda Container Image
   - The container image must implement the Lambda Runtime API
   - ECS / Fargate is preferred for running arbitrary Docker images
+
+### Lightsail
+
+Amazon Lightsail is great for users who do not have deep AWS technical expertise as it make it very easy to provision compute services.
+
+Amazon Lightsail provides developers compute, storage, and networking capacity and capabilities to deploy and manage websites, web applications, and databases in the cloud.
+
+Amazon Lightsail includes everything you need to launch your project quickly – a virtual machine, SSD-based storage, data transfer, DNS management, and a static IP.
+
+Amazon Lightsail provides preconfigured virtual private servers (instances) that include everything required to deploy and application or create a database.
+
+- Virtual servers, storage, databases, and networking
+- Low & predictable pricing
+- Simpler alternative to using EC2, RDS, ELB, EBS, Route 53...
+- Can setup notifications and monitoring of your Lightsail resources
+
+Use cases:
+
+- Simple web applications
+- Websites
+- Dev/Test environment
+- High availability but no auto-scaling, limited AWS integrations
+
+### Batch
+
+- Fully managed batch processing at any scale
+- Efficiently run 100,000s of computing batch jobs on AWS
+- Has a start and an end
+- Batch will dynamically launch EC2 instances or Spot Instances
+- AWS Batch provisions the right amount of compute / memory
+- You submit or schedule batch jobs and AWS Batch does the rest!
+- Batch jobs are defined as Docker images and run on ECS
+- Helpful for cost optimizations and focusing less on the infrastructure
