@@ -238,3 +238,10 @@ With Security Hub, you now have a single place that aggregates, organizes, and p
   - Hosting objectionable or copyrighted content – distributing illegal or copyrighted content without consent
   - Distributing malware – AWS resources distributing softwares to harm computers or machines
 - Contact the AWS Abuse team: AWS abuse form, or abuse@amazonaws.com
+
+## Single Sign-On (SSO)
+
+- Centrally manage Single Sign- On to access multiple accounts and 3rd-party business applications.
+- Integrated with AWS Organizations
+- Supports SAML 2.0 markup
+- Integration with on-premise Active Directory
