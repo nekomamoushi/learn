@@ -26,3 +26,33 @@ EKS gives you the flexibility to start, run, and scale Kubernetes applications i
 
 - Private Docker Registry on AWS
 - This is where you store your Docker images so they can be run by ECS or Fargate
+
+### Lambda
+
+- Virtual functions (no servers to manage)
+- Short executions (up to 15 minutes)
+- Run on-demand
+- Scaling is automated
+
+Pricing:
+
+- Pay per request and compute time
+- Free tier:
+  - 1,000,000 AWS Lambda requests
+  - 400,000 GBs of compute time
+- $0.20 per 1 million requests thereafter (calls)
+- After that $1.00 for 600,000 GB-seconds (duration)
+
+Supported Language:
+
+- Node.js
+- Python
+- Java (Java 8 compatible)
+- C# (.NET Core)
+- Golang
+- C# / Powershell
+- Ruby
+- Custom Runtime API
+- Lambda Container Image
+  - The container image must implement the Lambda Runtime API
+  - ECS / Fargate is preferred for running arbitrary Docker images
