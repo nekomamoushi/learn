@@ -4,4 +4,4 @@
 
 ## AWS
 
-- [Certified Cloud Practitioner](aws/certified_cloud_practitioner.md)
+- [AWS](aws/README.md)
