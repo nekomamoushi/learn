@@ -11,7 +11,7 @@
 - [Content Delivery](8_content_delivery.md)
 - [Database](9_database.md)
 - [Migration and Transfer](10_migration_and_tranfer.md)
-- [Compute Services](compute_services.md)
+- [Compute Services](11_compute_services.md)
 - [Application Integration](application_integration.md)
 - [Developer Tools](development.md)
 - [Logging and Monitoring](logging_and_monitoring.md)
