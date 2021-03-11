@@ -41,3 +41,13 @@
 - EFS works with Linux EC2 instances (1 to 1000) in multi-AZ
 - Highly available, scalable, expensive (3x gp2), pay per use, no capacity planning
 - Good for big data and analytics, media processing workflows, content management, web serving, home directories, etc...
+
+## Storage Gateway
+
+- Bridge between on-premise data and cloud data in S3
+- Hybrid storage service to allow on- premises to seamlessly use the AWS Cloud
+- Use cases: disaster recovery, backup & restore, tiered storage
+- Types of Storage Gateway:
+  - File Gateway
+  - Volume Gateway
+  - Tape Gateway
