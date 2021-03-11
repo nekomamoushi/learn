@@ -89,3 +89,25 @@ Use cases:
 - You submit or schedule batch jobs and AWS Batch does the rest!
 - Batch jobs are defined as Docker images and run on ECS
 - Helpful for cost optimizations and focusing less on the infrastructure
+
+### Elastic Beanstalk
+
+- Beanstalk = Platform as a Service (PaaS)
+- Beanstalk is free but you pay for the underlying instances
+- Elastic Beanstalk is a developer centric view of deploying an application on AWS
+- We have full control over the configuration
+- Just the application code is the responsibility of the developer
+
+Managed service
+
+- Instance configuration / OS is handled by Beanstalk
+- Deployment strategy is configurable but performed by Elastic Beanstalk
+- Capacity provisioning
+- Load balancing & auto-scaling
+- Application health-monitoring & responsiveness
+
+Three architecture models:
+
+- Single Instance deployment: good for dev
+- LB + ASG: great for production or pre-production web applications
+- ASG only: great for non-web apps in production (workers, etc..)
