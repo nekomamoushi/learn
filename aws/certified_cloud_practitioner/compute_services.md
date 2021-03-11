@@ -27,7 +27,7 @@ EKS gives you the flexibility to start, run, and scale Kubernetes applications i
 - Private Docker Registry on AWS
 - This is where you store your Docker images so they can be run by ECS or Fargate
 
-### Lambda
+## Lambda
 
 - Virtual functions (no servers to manage)
 - Short executions (up to 15 minutes)
@@ -57,7 +57,7 @@ Supported Language:
   - The container image must implement the Lambda Runtime API
   - ECS / Fargate is preferred for running arbitrary Docker images
 
-### Lightsail
+## Lightsail
 
 Amazon Lightsail is great for users who do not have deep AWS technical expertise as it make it very easy to provision compute services.
 
@@ -79,7 +79,7 @@ Use cases:
 - Dev/Test environment
 - High availability but no auto-scaling, limited AWS integrations
 
-### Batch
+## Batch
 
 - Fully managed batch processing at any scale
 - Efficiently run 100,000s of computing batch jobs on AWS
@@ -90,7 +90,7 @@ Use cases:
 - Batch jobs are defined as Docker images and run on ECS
 - Helpful for cost optimizations and focusing less on the infrastructure
 
-### Elastic Beanstalk
+## Elastic Beanstalk
 
 - Beanstalk = Platform as a Service (PaaS)
 - Beanstalk is free but you pay for the underlying instances
@@ -111,3 +111,21 @@ Three architecture models:
 - Single Instance deployment: good for dev
 - LB + ASG: great for production or pre-production web applications
 - ASG only: great for non-web apps in production (workers, etc..)
+
+## Outposts
+
+- Hybrid Cloud: businesses that keep an on- premises infrastructure alongside a cloud infrastructure
+- Therefore, two ways of dealing with IT systems:
+  - One for the AWS cloud (using the AWS console CLI, and AWS APIs)
+  - One for their on-premises infrastructure
+- AWS Outposts are “server racks” that offers the same AWS infrastructure, services, APIs & tools to build your own applications on-premises just as in the cloud
+- AWS will setup and manage “Outposts Racks” within your on-premises infrastructure and you can start leveraging AWS services on-premises
+- You are responsible for the Outposts Rack physical security
+
+Benefits:
+
+- Low-latency access to on-premises systems
+- Local data processing
+- Data residency
+- Easier migration from on-premises to the cloud • Fully managed service
+- Managed service to collect, process, and analyze real-time streaming data at any scale
