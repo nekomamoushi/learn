@@ -1,6 +1,6 @@
 # Certified Cloud Practitioner
 
-- [Cloud Computing](cloud_computing.md)
+- [Cloud Computing](0_cloud_computing.md)
 - [Global Infrastructure](global_infrastructure.md)
 - [Identity and Access Management](identity_access_management.md)
 - [EC2](elastic_compute_cloud.md)
