@@ -32,7 +32,7 @@ Don’t re-invent the wheel
 - Leverage existing templates on the web!
 - Leverage the documentation
 
-### Systems Manager (SSM)
+## Systems Manager (SSM)
 
 - Helps you manage your EC2 and On-Premises systems at scale
 - Hybrid AWS service
@@ -47,10 +47,41 @@ Don’t re-invent the wheel
 - You need to install the SSM agent onto the systems we control
 - Installed by default on Amazon Linux AMI & some Ubuntu AMI
 
-### OpsWorks
+## OpsWorks
 
 - Chef & Puppet help you perform server configuration automatically, or repetitive actions
 - They work great with EC2 & On-PremisesVM
 - AWS OpsWorks = Managed Chef & Puppet
 - It’s an alternative to AWS SSM
 - Only provision standard AWS resources: EC2 Instances, Databases, Load Balancers, EBS volumes...
+
+## Control Tower
+
+- Easy way to set up and govern a secure and compliant multi-account AWS environment based on best practices
+- Benefits:
+  - Automate the set up of your environment in a few clicks
+  - Automate ongoing policy management using guardrails • Detect policy violations and remediate them
+  - Monitor compliance through an interactive dashboard
+- AWS Control Tower runs on top of AWS Organizations:
+  - It automatically sets up AWS Organizations to organize accounts and implement SCPs (Service Control Policies)
+
+## Trusted Advisor
+
+Analyze your AWS accounts and provides recommendation::
+
+- Cost Optimization:
+  - low utilization EC2 instances, idle load balancers, under-utilized EBS volumes...
+  - Reserved instances & savings plans optimizations,
+- Performance:
+  - High utilization EC2 instances, CloudFront CDN optimizations
+  - EC2 to EBS throughput optimizations, Alias records recommendations
+- Security:
+  - MFA enabled on Root Account, IAM key rotation, exposed Access Keys
+  - S3 Bucket Permissions for public access, security groups with unrestricted ports
+- Fault Tolerance:
+  - EBSsnapshotsage, Availability Zone Balance
+  - ASGMulti-AZ, RDSMulti-AZ, ELBconfiguration...
+- Service Limits
+
+FREE has 7 trusted Advisor Checks
+Enterprise and Business - All trusted advisor checks
