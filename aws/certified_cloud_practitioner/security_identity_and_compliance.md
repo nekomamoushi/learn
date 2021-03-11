@@ -245,3 +245,15 @@ With Security Hub, you now have a single place that aggregates, organizes, and p
 - Integrated with AWS Organizations
 - Supports SAML 2.0 markup
 - Integration with on-premise Active Directory
+
+### Directory Services
+
+- AWS Managed Microsoft AD
+  - Create your own AD in AWS, manage users
+  - Establish “trust” connections with your on-premise AD
+- AD Connector
+  - Directory Gateway (proxy) to redirect to on-premise AD
+  - Users are managed on the on-premise AD
+- Simple AD
+  - AD-compatible managed directory on AWS
+  - Cannot be joined with on-premise AD
