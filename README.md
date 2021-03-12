@@ -1,3 +1,1 @@
-# Notes
-
-- [AWS](aws/README.md)
+# Learn
